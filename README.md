@@ -1,6 +1,6 @@
 # Vaccine Misinformation Chatbot
 
-This project demonstrates fine-tuning a GPT-2 model to **detect and correct vaccine misinformation centered around COVID-19**. The goal is to explore natural language processing and model fine-tuning while applying best practices for dataset handling and model deployment.
+This project demonstrates fine-tuning a GPT-2 model using LoRA to **detect and correct vaccine misinformation centered around COVID-19**. The goal is to explore natural language processing and model fine-tuning while applying best practices for dataset handling and model deployment.
 
 **Dataset Source / Credit:**  
 This dataset was obtained from [Vax-Culture: A Dataset for Studying Vaccine Discourse on Twitter](https://github.com/mrzarei5/Vax-Culture) 
@@ -53,6 +53,7 @@ Enter a **misinformation claim** in the input box, and the model will generate a
 * Dataset preprocessing and train/test split
 * Model evaluation and inference
 * Deployment via Streamlit and Git/GitHub usage
+
 
 
 
