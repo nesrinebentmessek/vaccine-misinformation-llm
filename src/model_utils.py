@@ -1,8 +1,8 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch
 
-tokenizer = GPT2Tokenizer.from_pretrained("C:\Users\NESRINEE\Desktop\gpt2_finetuned")
-model = GPT2LMHeadModel.from_pretrained("C:\Users\NESRINEE\Desktop\gpt2_finetuned")
+tokenizer = GPT2Tokenizer.from_pretrained("")
+model = GPT2LMHeadModel.from_pretrained("")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
