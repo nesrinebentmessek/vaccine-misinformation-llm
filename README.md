@@ -33,6 +33,7 @@ python -m pip install streamlit transformers torch
 
 ```bash
 streamlit run app/streamlit_app.py
+```
 
 ## Usage
 
@@ -52,6 +53,7 @@ Enter a **misinformation claim** in the input box, and the model will generate a
 * Dataset preprocessing and train/test split
 * Model evaluation and inference
 * Deployment via Streamlit and Git/GitHub usage
+
 
 
 
